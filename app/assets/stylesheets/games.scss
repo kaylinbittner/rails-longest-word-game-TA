@@ -1,3 +1,80 @@
 // Place all the styles related to the games controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 65px;
+  color: #FFBE5B;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  color: #42ACFF;
+  padding: 5px 15px;
+  border-style: solid;
+  border-color: #2E78B2;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(225, 225, 225, 0.6);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+ .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form {
+  text-align: center;
+  width: 25%;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ .button {
+  width: 10%;
+  height: auto;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ p {
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ h4 .generate {
+  width: 25%;
+  margin-left: 45%;
+  text-decoration: none !important;
+  text-align: center !important;
+  padding: 10px 25px;
+  // margin-top: 20px;
+  font-size: 18px;
+  border: 1px solid #FFBE5B;
+  border-radius: 5px;
+  color: white;
+  background-color: #FFBE5B;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.answer {
+  font-size: 25px;
+}
+
